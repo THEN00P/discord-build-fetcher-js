@@ -1,6 +1,6 @@
 # discord-build-scraper-js
 A build scraper for Discord™'s three release channels; Canary, PTB (Public Test Build), and Stable accessible via public API endpoints.
-The original was developed in Python by adityaxdiwakar/discord-build-scraper
+The original was developed in Python by [adityaxdiwakar/discord-build-scraper](https://github.com/adityaxdiwakar/discord-build-scraper)
 
 ## Purpose
 Scrapes the `app.js` file for `discordapp.com/app`, `ptb.discordapp.com/app`, and `canary.discordapp.com/app` to detect the current build hash, id, and number.
@@ -11,7 +11,7 @@ The second argument defines a previous build id and will skip some requests if i
 
 If the fetcher doesn't get passed arguments it will just fetch stable.
 
-```JavaScript
+```javascript
 const fetcher = require("discord-build-fetcher-js");
 
 fetcher("ptb").then(result => {
