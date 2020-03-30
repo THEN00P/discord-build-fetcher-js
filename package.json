@@ -1,6 +1,6 @@
 {
   "name": "discord-build-fetcher-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fetches the latest discord build using js",
   "main": "index.js",
   "author": "THEN00P",
