@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "THEN00P",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/THEN00P/discord-build-fetcher-js"
+  },
   "private": false,
   "dependencies": {
     "axios": "^0.19.2"
