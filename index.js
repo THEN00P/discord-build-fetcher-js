@@ -41,8 +41,3 @@ function fetcher(channel = 'stable', oldBuildID = -1) {
 }
 
 module.exports = fetcher;
-
-fetcher("canary").then(res => {
-    console.log(res);
-    debugger;
-})
