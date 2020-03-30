@@ -1,0 +1,12 @@
+{
+  "name": "discord-build-fetcher-js",
+  "version": "1.0.0",
+  "description": "Fetches the latest discord build using js",
+  "main": "index.js",
+  "author": "THEN00P",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
