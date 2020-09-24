@@ -1,4 +1,4 @@
-# discord-build-scraper-js
+# discord-build-fetcher-js
 A build scraper for Discord™'s three release channels; Canary, PTB (Public Test Build), and Stable accessible via public API endpoints.
 The original was developed in Python by [adityaxdiwakar/discord-build-scraper](https://github.com/adityaxdiwakar/discord-build-scraper)
 
