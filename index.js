@@ -30,7 +30,7 @@ function fetcher(channel = 'stable', oldBuildID = -1) {
                         buildNum: buildstrings[0].split(':')[buildstrings[0].split(':').length-1].replace(' ', ''),
                         buildHash: buildstrings[1].split(':')[buildstrings[1].split(':').length-1].replace(' ', ''),
                         jsFiles: jsfiles,
-                        cssFiles: mainres.data.match(/((1.|0.)[a-zA-z0-9]+)\.css/g)
+                        cssFiles: mainres.data.match(/([a-zA-z0-9]+)\.css/g)
                     }
                 );
             })
